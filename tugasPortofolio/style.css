@@ -1,0 +1,162 @@
+/* Reset bawaan browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-image: url("background.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px 50px;
+}
+
+/* Logo */
+nav h1 {
+  color: white;
+
+  font-size: 38px;
+  font-weight: bold;
+
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Menu */
+nav ul {
+  display: flex;
+
+  list-style: none;
+
+  gap: 35px;
+}
+
+/* Link Menu */
+nav a {
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+/* Hover Menu */
+nav a:hover {
+  color: gold;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 80px 50px;
+}
+
+/* Bagian Text */
+.text {
+  width: 55%;
+}
+
+/* Judul */
+.text h2 {
+  color: white;
+
+  font-size: 70px;
+
+  margin-bottom: 25px;
+
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Paragraf */
+.text p {
+  color: #f1dada;
+
+  font-size: 28px;
+  line-height: 1.6;
+
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Social Media */
+.social {
+  margin-top: 35px;
+
+  display: flex;
+  gap: 20px;
+}
+
+/* Tombol Sosial */
+.social a {
+  text-decoration: none;
+
+  background: linear-gradient(135deg, gold, #ffcc00);
+
+  color: black;
+
+  padding: 14px 28px;
+
+  border-radius: 12px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  display: inline-block;
+
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+
+  transition: all 0.3s ease;
+}
+
+/* Hover Tombol */
+.social a:hover {
+  transform: translateY(-5px) scale(1.05);
+
+  background: white;
+
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Foto */
+.image img {
+  width: 450px;
+
+  border-radius: 15px;
+
+  box-shadow: 0px 0px 40px rgba(255, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.85);
+
+  padding: 25px 50px;
+
+  margin-top: 50px;
+}
+
+/* Tulisan Footer */
+footer p {
+  font-size: 20px;
+}
